@@ -75,16 +75,16 @@
 
 
 
-let isAlive = true;
+// let isAlive = true;
 
-if(!isAlive)
-{
-    console.log("You are applicable for achieving Death Certificate! ✍");
-}
-else
-{
-    console.log("You are not dead");
-}
+// if(!isAlive)
+// {
+//     console.log("You are applicable for achieving Death Certificate! ✍");
+// }
+// else
+// {
+//     console.log("You are not dead");
+// }
 
 
 
