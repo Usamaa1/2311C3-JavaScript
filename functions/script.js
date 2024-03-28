@@ -71,7 +71,6 @@
 
 // sum(30,40)
 
-
 // let sum = (a,b) => {
 //     console.log("This is the result of sum:")
 //     console.log(a + b)
@@ -84,7 +83,6 @@
 // let square = a => a**2;
 
 // console.log(square(3))
-
 
 // function square(a) { return a**2};
 
