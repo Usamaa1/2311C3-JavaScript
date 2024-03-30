@@ -67,21 +67,116 @@
 
 /**************  STRING METHODS */
 
-let str1 = "This is first String";
-let str2 = "THIS IS SECOND STRING";
-let num = 798;
+// let str1 = "This is first String";
+// let str2 = "THIS IS SECOND STRING";
+// let num = 798;
 
 
-console.log(str1.length)
-console.log(str2.toLowerCase())
-console.log(str1.toUpperCase())
-console.log(num + 90)
-console.log(num.toString() + 90)
-console.log(str1.search('first'))
-console.log(str1.replace('is','it'))
-console.log(str1.replace(/is/g,'it'))
+// console.log(str1.length)
+// console.log(str2.toLowerCase())
+// console.log(str1.toUpperCase())
+// console.log(num + 90)
+// console.log(num.toString() + 90)
+// console.log(str1.search('first'))
+// console.log(str1.replace('is','it'))
+// console.log(str1.replace(/is/g,'it'))
 
 
+
+
+
+/**************  ARRAY METHODS */
+
+// const a = 23;
+// a= 34;
+
+// const arr = [2,3,4,5,6];
+// arr[3] = 4;
+// arr.push(45)
+// arr.push(345)
+// arr.push(354)
+// arr.push(65)
+
+// arr.pop();
+// arr.pop();
+
+// arr.shift();
+// arr.shift();
+
+// arr.unshift(900)
+// arr.unshift(500)
+
+
+
+
+// delete arr[2];
+// arr[2] = 45;
+
+
+
+// console.log(arr.length)
+
+// const cars = ['City','Alto','Mehran','Vitz','Ciaz','Alto','Mehran']
+
+
+// let a = cars.indexOf('Mehran');
+
+// // delete cars[a];
+// console.log(a)
+
+// delete cars[a]
+// delete cars[cars.indexOf('Mehran')]
+
+// let a = cars.lastIndexOf('Alto');
+// console.log(a)
+
+
+// const city = ['Karachi','Islamabad','Lahore','Peshawar']
+
+
+// console.log(cars);
+// console.log(cars.includes('Mehran'));
+
+
+// const total = cars.concat(city,arr);
+
+// console.log(total)
+
+
+
+// let cities1 = [100,200,300,400];
+
+
+// let cities2 = cities1;
+
+// cities2[1] = 900;
+
+
+// let a = "Ammar";
+
+// let b = a;
+
+// b = 3;
+
+// console.log("value of a",a)
+// console.log("value of b",b)
+ 
+
+
+// console.log("cities 1",cities1)
+// console.log("cities 2",cities2)
+
+
+let cities1 = [100,200,300,400];
+
+let cities2 = [...cities1];
+
+cities2[1] = 9000000;
+
+console.log("cities 1: ",cities1)
+console.log("cities 2: ",cities2)
+
+console.log(...cities1)
 
 
 
