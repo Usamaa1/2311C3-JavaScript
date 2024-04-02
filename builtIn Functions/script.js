@@ -167,20 +167,124 @@
 // console.log("cities 2",cities2)
 
 
-let cities1 = [100,200,300,400];
+// let cities1 = [100,200,300,400];
 
-let cities2 = [...cities1];
+// let cities2 = [...cities1];
 
-cities2[1] = 9000000;
+// cities2[1] = 9000000;
 
-console.log("cities 1: ",cities1)
-console.log("cities 2: ",cities2)
+// console.log("cities 1: ",cities1)
+// console.log("cities 2: ",cities2)
 
-console.log(...cities1)
+// console.log(...cities1)
+
+// const cars = ['Mehran','Ciaz','City', 'Ciaz','Mira'];
+
+// console.log("Before Method",cars)
+// cars.pop(); -----> for last deletion
+// cars.push('Alto')------> for last insertion
+
+// cars.shift(); ------> for begining deletion
+// cars.unshift("BMW");------> for begining insertion
+
+// cars[2] = 'Alto'
+// delete cars[1];
+
+// for(let i=0; i < 3; i++){
+
+//     let userInput = prompt(`Enter Value ${i}`);
+//     cars.push(userInput);
+// }
+
+// console.log("After Method",cars)
+
+// console.log(cars.indexOf('Ciaz'));
+// console.log(cars.lastIndexOf('Ciaz'));
+
+// let carsIndex = cars.indexOf('Ciaz');
+
+// delete cars[carsIndex];
+
+// console.log("After Method",cars)
+
+// console.log(cars.includes('fsdafds'));
+
+// if(cars.includes('Mehran'))
+//     console.log("Found!😁")
+// else
+//     console.log("Not Found!🤔");
+
+
+
+// const nums1 = [1,2,3];
+// const nums2 = [4,5,6];
+// const nums3 = [7,8,9];
+
+// const allNums = nums1.concat(nums2,nums3);
+
+// console.log(allNums)
+
+
+
+// const cities = ['Karachi','Islamabad','Multan'];
+
+// let a = 20;
+
+// let b = a;
+
+// b = 40;
+
+// console.log("a value is:",a)
+// console.log("b value is:",b)
 
 
 
 
+// const cities = ['Karachi','Islamabad','Multan'];
+
+// const citiesCopy = cities;
+
+// citiesCopy[2] = 'Lahore';
+
+// console.log("Cities array:",cities)
+// console.log("Copy of cities array:",citiesCopy)
+
+
+// const cities = ['Karachi','Islamabad','Multan'];
+
+// const citiesCopy = [...cities];
+
+// citiesCopy[2] = 'Lahore';
+
+// console.log("Cities array:",cities)
+// console.log("Copy of cities array:",citiesCopy)
+
+// console.log(...cities)
+
+
+
+const persons = [
+    ['Zahid', 56, 'Accountant'],
+    ['Aslam', 45, 'Web Developer','Jetnix'],
+    ['Haris',24, 'App Developer'],
+    ['Jamshed', 67, 'Shop Owner']
+]
+
+console.log(persons[2][2])
+
+
+console.table(persons)
+
+
+
+
+for(let i = 0; i < persons.length; i++)
+{
+    for(let j = 0; j < persons[i].length; j++)
+    {
+        console.log(persons[i][j])
+    }
+}
 
 
 
